@@ -1,4 +1,5 @@
 ---
+image: /assets/images/me.jpg
 pagination:
     collection: posts
 ---
