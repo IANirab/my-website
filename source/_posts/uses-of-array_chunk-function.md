@@ -5,9 +5,8 @@ title: Uses of array_chunk function
 date: 2019-10-18
 description: এই ফাংশনটি ব্যাবহার করে অ্যারেসমূহের ভেলুগুলো নিয়ে এক অথবা একাধিক নতুন অ্যারে গঠন করা হয় । সাধারণত এই ফাংশনটির ৩-টি প্যারামিটার থাকে । কিন্তুু ২-টি ব্যাবহার করা বাধ্যতামূলক ।
 cover_image: /assets/images/top-php-string-functions-bangla.png
-categories: [php,php-array]
+categories: [php, php-array]
 ---
-
 
 পিএইচপিতে একটি বিল্ডইন ফাংশন হল **array_chunk()**
 
