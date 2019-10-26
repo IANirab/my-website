@@ -12,6 +12,11 @@
 // Highlight.js theme
 @import '~highlight.js/styles/atom-one-dark.css';
 
+.hljs {
+  padding: 1em !important;
+  border-radius: 0.3rem;
+}
+
 // Custom colors for social share links
 .text-facebook, a.text-facebook:hover {
   color: #4267b2;
