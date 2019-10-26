@@ -55,7 +55,9 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>Istiaq Nirab</pre>
+```
+Istiaq Nirab
+```
 
 #### PHP Ucfirst Function
 
@@ -69,7 +71,9 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>Hello world</pre>
+```
+Hello world
+```
 
 #### PHP Ucwords Function
 
@@ -85,7 +89,9 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>Hello World</pre>
+```
+Hello World
+```
 
 #### PHP Strlen Function
 
@@ -101,7 +107,9 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>11</pre>
+```
+11
+```
 
 #### PHP Strtolower Function
 
@@ -117,9 +125,11 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>istiaq</pre>
+```
+istiaq
+```
 
-**PHP Strtoupper Function :**
+#### PHP Strtoupper Function :
 
 এই ফাংশনটি স্ট্রিং-এর প্রতিটি ক্যারেক্টারকে uppercase এ কনভার্ট করে দেয় ।
 
@@ -133,7 +143,9 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>ISTIAQ</pre>
+```
+ISTIAQ
+```
 
 #### PHP Lcfirst Function
 
@@ -149,7 +161,9 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>iSTIAQ</pre>
+```
+iSTIAQ
+```
 
 #### PHP Str Replace Function
 
@@ -165,7 +179,9 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>Hello World</pre>
+```
+Hello World
+```
 
 #### PHP Str Word Count Function
 
@@ -181,7 +197,9 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>2</pre>
+```
+2
+```
 
 #### PHP Strrev Function
 
@@ -197,7 +215,9 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>olleh</pre>
+```
+olleh
+```
 
 #### PHP Strpos Function
 
@@ -213,7 +233,9 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>6</pre>
+```
+6
+```
 
 #### PHP Substr Function
 
@@ -229,6 +251,8 @@ categories: [php]
 
 **রেজাল্ট :**
 
-<pre>Hello</pre>
+```
+Hello
+```
 
 পোস্টটি সম্পূর্ণ পড়ার জন্য অসংখ্য ধন্যবাদ । কোন প্রকার অসুবিধা হলে কমেন্ট করুন ।

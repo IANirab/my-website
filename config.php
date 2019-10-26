@@ -46,27 +46,28 @@ return [
             'link' => '/feed.xml',
             'icon' => 'fas fa-rss',
         ]
-//      'another social service' => [
-//          'link' => 'link to your account',
-//          'icon' => 'font awesome icon https://fontawesome.com/icons?d=gallery&m=free',
-//      ]
+        //      'another social service' => [
+        //          'link' => 'link to your account',
+        //          'icon' => 'font awesome icon https://fontawesome.com/icons?d=gallery&m=free',
+        //      ]
     ],
 
     // Google Analytics Tracking Id. For example, UA-123456789-1
-    'gaTrackingId' => '',
+    'gaTrackingId' => 'UA-130447408-4',
 
     // True if you want to show a reading time (e.g 2 min read) or false to hide
     'showReadingTime' => true,
 
-    'readingTime' => function($post) {
+    'readingTime' => function ($post) {
         $mins = round(str_word_count(strip_tags($post)) / 200);
-        return implode('', array_fill(0, round($mins / 5),'☕')) . ' ' . $mins . ' min read';
+        return implode('', array_fill(0, round($mins / 5), '☕')) . ' ' . $mins . ' min read';
     },
 
     'getExcerpt' => function ($page, $length = 225) {
         $content = $page->excerpt ?? $page->getContent();
         $cleaned = strip_tags(
-            preg_replace(['/<pre>[\w\W]*?<\/pre>/', '/<h\d>[\w\W]*?<\/h\d>/'], '', $content), '<code>'
+            preg_replace(['/<pre>[\w\W]*?<\/pre>/', '/<h\d>[\w\W]*?<\/h\d>/'], '', $content),
+            '<code>'
         );
         $truncated = substr($cleaned, 0, $length);
         if (substr_count($truncated, '<code>') > substr_count($truncated, '</code>')) {

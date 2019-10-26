@@ -4,7 +4,6 @@ section: content
 title: Laravel Mail Editor Package Bangla
 date: 2019-10-13
 description: লারাভেলে প্যাকেজ রিভিউ সিরিজে আমি আজকে  Mail Editor Package প্যাকেজটির কথা বলবো  । এই প্যাকেজটি ব্যাবহার করে খুব সহজেই আপনি আপনার সাইটের জন্য কম্যান্ড লাইন ছাড়া মেইল ও সুন্দর সুন্দর মেইল টেম্পলেট বানাতে পারবেন
-cover_image: /assets/images/laravel-mail-editor-package-bangla.png
 categories: [laravel]
 ---
 
