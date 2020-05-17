@@ -8,7 +8,7 @@ export default (props) => (
     <Link to="/projects">Projects</Link>
     <Link to="/about-me">About me</Link>
     <Link to="/blog">Blog</Link>
-    <a href="https://www.fiverr.com/pronirab" target="_blank">Hire Me</a>
+    <a href="https://www.fiverr.com/pronirab" target="_blank" rel="noopener noreferrer">Hire Me</a>
     <Social />
   </nav>
 )

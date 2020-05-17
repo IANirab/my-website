@@ -1,5 +1,5 @@
 import React from "react"
-import {StaticQuery, graphql, Link} from "gatsby"
+import {StaticQuery, graphql} from "gatsby"
 export default () => (
   <StaticQuery
     query={graphql`
@@ -21,7 +21,7 @@ export default () => (
           className="primary-content"
           dangerouslySetInnerHTML={{__html: data.site.siteMetadata.home.description}}
         />
-        <a href='https://www.fiverr.com/pronirab' target="_blank" className="button -primary">Hire Me &rarr;</a>
+        <a href='https://www.fiverr.com/pronirab' target="_blank" rel="noopener noreferrer" className="button -primary">Hire Me &rarr;</a>
       </div>
     )}
   />
