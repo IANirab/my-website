@@ -2,7 +2,7 @@
 template: projects
 path: /portfolio/portfolio-website/
 date: 2020-02-25
-title: PortFolio Website
+title: Laravel PortFolio Website
 category: PortFolio
 thumbnail: /assets/projects/portfolio-website.png
 metaDescription: PortFolio Website
